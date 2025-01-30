@@ -1,0 +1,75 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 65, 65);
+    color:white;
+    font-size: 20px;
+}
+header
+{
+    display: block;
+    height: max-content;
+    background-color: cadetblue;
+    border-bottom: 5px solid white;
+}
+#title
+{
+    text-align: center;
+    color:gold;
+    margin:0px;
+}
+input,button
+{
+font-size: 20px;
+    border: 5px solid gray;
+        border-radius: 10px;
+    color:white;
+    margin: 10px;
+    width: min-content;
+    background-color: darkgoldenrod;
+}
+input
+{
+    text-align: center;
+    max-width: 80px;
+    
+}
+#yourValue
+{
+    appearance: none;
+    -moz-appearance: textfield;
+}
+button
+{
+
+}
+.main
+{
+    width:fit-content;
+    height: fit-content;
+    margin:auto;
+}
+.border
+{
+    margin:10px;
+    padding:10px;
+    border: 1px solid white;
+    text-align: center;
+}
+h2
+{
+    margin: 0;
+}
+.red
+{
+    color:red;
+}
+.green
+{
+    color:rgb(2, 196, 2);
+}
+.big
+{
+    font-weight: bold;
+}
